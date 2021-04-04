@@ -1,0 +1,172 @@
+.root{
+    -fx-background-color: white;
+}
+.text{
+    -fx-font-smoothing-type: gray;
+}
+.text-field {
+    -fx-background-insets: 0;
+    -fx-background-color: transparent, white, transparent, white;
+    -fx-box-border: none;
+    -fx-focus-color: -fx-control-inner-background;
+    -fx-faint-focus-color: -fx-control-inner-background;
+    -fx-text-box-border: -fx-control-inner-background;
+    -fx-border-color: #c2c2c2;
+    -fx-border-style: SOLID;
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+    -fx-padding: 0 20 0 20;
+}
+
+.text-field .content {
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+.text-field:focused .content {
+    -fx-background-color: transparent, white, transparent, white;
+}
+.text-field:focused {
+    -fx-highlight-fill: #0286ff;
+
+    -fx-background-insets: 0;
+    -fx-background-color: transparent, white, transparent, white;
+    -fx-background-radius: 0, 0, 0, 0;
+
+    -fx-focus-color: -fx-control-inner-background;
+    -fx-faint-focus-color: -fx-control-inner-background;
+    -fx-text-box-border: -fx-control-inner-background;
+    -fx-border-style: SOLID;
+}
+.text-field:hover {
+    -fx-background-radius: 3;
+    -fx-border-color: transparent;
+    -fx-border-radius: 3;
+    -fx-effect: dropshadow(gaussian, rgb(0.09, 0.09, 0.09, 0.1), 8.0, 0.7, 0.5,0.5);
+}
+
+#btn{
+    -fx-background-color: white;
+    -fx-border-color: white;
+    -fx-text-fill: black;
+    -fx-focus-color: #295397;
+    -fx-font-size: 13;
+    -fx-border-radius: 0;
+    -fx-border-width: 1;
+}
+
+#btn_search{
+     -fx-border-radius: 20;
+     -fx-background-radius: 20;
+     -fx-background-color: white;
+     -fx-text-fill: #4f4f4f;
+     -fx-border-color: white;
+ }
+
+#btn_search:hover{
+    -fx-background-color: #f9f9f9;
+    -fx-border-color: #f9f9f9;
+    -fx-cursor: hand;
+
+}
+
+#btn_search:pressed{
+    -fx-background-color: #eaeaea;
+    -fx-border-color: #f3f3f3;
+}
+
+#label_head{
+    /*-fx-label-padding: 15 0 0 0;*/
+    -fx-text-fill: #1a0dab;
+    -fx-font-size: 16pt;
+    line-height: 1.4;
+    -fx-font-family: Arial;
+    -fx-font-smoothing-type: gray;
+    -fx-border-width: 0 0 1.5 0;
+    -fx-border-color: transparent;
+
+}
+
+#label_head:hover{
+    -fx-border-color: #1a0dab;
+    -fx-cursor: hand;
+}
+
+#label_content{
+    -fx-start-margin: 0;
+    -fx-end-margin: 0;
+    -fx-text-fill: #3c3f41;
+    line-height: 1.4;
+}
+
+
+
+.list-view{
+    -fx-border-width: 0;
+    -fx-border-color: transparent;
+}
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    /* 3:, 4: */
+    -fx-background-color: transparent;
+}
+.list-cell { -fx-text-fill: black; /* 5 */ }
+
+.list-cell:odd { -fx-background-color: transparent;  /* 1 */ }
+.list-cell:even { -fx-background-color: transparent;  /* for information */ }
+.list-cell:filled:hover { -fx-background-color: transparent; /* 2 */}
+.list-view .scroll-bar:vertical {
+    -fx-scale-x: 0;
+}
+.list-view .scroll-bar:vertical {
+    -fx-padding: 0px;
+    /*-fx-padding: 3px;*/
+}
+.list-view .scroll-bar:horizontal {
+    -fx-scale-x: 0;
+}
+.list-view .scroll-bar:horizontal {
+    -fx-padding: 0px;
+}
+.list-view, .split-pane { -fx-background-insets: 0; -fx-padding: 0; }
+
+#btn_cls{
+    -fx-border-radius: 0;
+    -fx-background-color: transparent;
+}
+#btn_opt{
+    -fx-border-radius: 0;
+    -fx-background-color: transparent;
+}
+
+#btn_cls:hover{
+    -fx-background-color: red;
+    -fx-fill: white;
+}
+
+#btn_opt:hover{
+    -fx-background-color: #e7e7e7;
+}
+#btn_opt:hover{
+    -fx-background-color: #e7e7e7;
+}
+.text-area {
+    -fx-background-insets: 0;
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+.text-area .content {
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+.text-area:focused .content {
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+.text-area:focused {
+    -fx-highlight-fill: #7ecfff;
+}
+
+.text-area .content {
+    -fx-padding: 10px;
+    -fx-text-fill: gray;
+    -fx-highlight-fill: #7ecfff;
+}
