@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="org.xipki.iaik:sunpkcs11-wrapper:1.4.7" type="repository">
+    <properties maven-id="org.xipki.iaik:sunpkcs11-wrapper:1.4.7" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/xipki/iaik/sunpkcs11-wrapper/1.4.7/sunpkcs11-wrapper-1.4.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -10,7 +10,12 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane prefHeight="720.0" prefWidth="980.0" stylesheets="@/css/style.css"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="numidia.controller.Home">
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.ProgressBar?>
+<?import com.jfoenix.controls.JFXProgressBar?>
+<?import javafx.scene.control.ProgressIndicator?>
+<BorderPane prefHeight="720.0" prefWidth="980.0" stylesheets="@/css/style.css" xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml" fx:controller="numidia.controller.Home">
     <top>
         <HBox alignment="TOP_RIGHT" prefHeight="14.0" prefWidth="1080.0">
             <Label contentDisplay="CENTER" text="E-Gov" textAlignment="CENTER" textFill="#464646">
@@ -39,7 +44,11 @@
         </HBox>
     </top>
     <center>
-        <BorderPane fx:id="holdPane" prefHeight="670.0" prefWidth="1080.0" BorderPane.alignment="CENTER" />
+        <BorderPane fx:id="holdPane" prefHeight="670.0" prefWidth="1080.0" BorderPane.alignment="CENTER" >
+            <center>
+                <JFXProgressBar prefHeight="4.0" prefWidth="451.0"  ></JFXProgressBar>
+            </center>
+        </BorderPane>
     </center>
     <left>
         <VBox prefHeight="662.0" prefWidth="46.0">
